@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Header */
+h1 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    color: #f1c40f;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #f1c40f;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #ffeb3b;
+}
+
+/* Book List */
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+/* Book Card */
+.book-card {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.2);
+}
+
+.book-card h2 {
+    font-size: 1.4rem;
+    color: #f1c40f;
+    margin-bottom: 10px;
+}
+
+.book-card p {
+    font-size: 1rem;
+    color: #ccc;
+    margin: 5px 0;
+}
+
+/* Add Book Button */
+.add-book-btn {
+    display: inline-block;
+    margin: 20px;
+    padding: 12px 24px;
+    background: #f1c40f;
+    color: #121212;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out;
+}
+
+.add-book-btn:hover {
+    background: #ffeb3b;
+}
+
+/* Form */
+form {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+input {
+    background: #2c2c2c;
+    color: white;
+    outline: none;
+}
+
+button {
+    background: #f1c40f;
+    color: #121212;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #ffeb3b;
+}
+
+/* Back to Home */
+.back-link {
+    display: block;
+    margin-top: 20px;
+    color: #f1c40f;
+    font-size: 1.1rem;
+}
